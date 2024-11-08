@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 100 100;
+        --foreground: 0 0 0;
+
+        --primary: 222 47.4 11.2;
+        --primary-foreground: 0 100 100;
+        --secondary: 0 100 100;
+        --secondary-foreground: 0 0 0;
+        --success: 142 70.6 45.3;
+        --success-foreground: 0 100 100;
+        --warning: 43 96.4 56.3;
+        --warning-foreground: 0 100 100;
+        --danger: 0 84.2 60.2;
+        --danger-foreground: 0 100 100;
+    }
+}
