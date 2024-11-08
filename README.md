@@ -14,6 +14,9 @@
 
 ### Getting Started!
 
+Add this alias to your .bashrc or .zshrc
+> alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
+
 > Run this script below to get started
 > This clones the repo, setups a .env file, and generates you an APP_KEY for encrypting cookies.
 
