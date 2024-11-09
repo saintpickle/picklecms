@@ -35,6 +35,8 @@ Follow these steps to get your project up and running:
 git clone git@github.com:saintpickle/picklecms.git
 cd picklecms
 cp .env.example .env
+composer install
+sail pnpm install
 sail artisan key:generate
 ```
 
