@@ -1,20 +1,17 @@
 # PickleCMS
 
-PickleCMS is a powerful content management system utilizing Laravel, Svelte, and Inertia to deliver a seamless developer experience. 
+PickleCMS is a powerful content management system utilizing Laravel v12, React v19, Shadcn/ui, and Inertia 2.0 to deliver a seamless developer experience. 
 
 ### Resources
 
 > **Important Notes:**
->
-> - **Inertia 2.0** is currently in beta but is stable enough for use.
-> - This repository uses **Laravel Sail**, which leverages Docker to create a complete development environment.
-> - **Do not delete the `.env.example` file**. It contains the necessary environment configurations that developers can copy and modify as needed.
-> - You will need to install **php php-xml composer** to do a composer install the first time you clone this project in order to install sail, then after that you can run sail composer for managing the project.
 
-- [Laravel 11 Documentation](https://laravel.com/docs/11.x)
-- [Inertia 2 Documentation](https://v2.inertiajs.com/)
-- [Svelte 5 Documentation](https://svelte.dev/docs/svelte/overview)
-- [TailwindCSS Documentation](https://tailwindcss.com/docs/customizing-colors)
+> You will need to install a php and laravel.
+
+- [Laravel 12 Documentation](https://laravel.com/docs/12.x)
+- [Inertia 2.0 Documentation](https://inertiajs.com/)
+- [React 19 Documentation](https://react.dev/learn)
+- [TailwindCSS Documentation](https://tailwindcss.com/docs/)
 - [Vite Documentation](https://vite.dev/guide/)
 
 ### Getting Started
