@@ -44,7 +44,7 @@ services:
         healthcheck:
             test: ["CMD", "mariadb-admin", "ping", '-p${DB_PASSWORD}']
             retries: 3
-            timeout: 5s
+            timeout: 10s
     phpmyadmin:
         image: phpmyadmin:latest
         restart: always
