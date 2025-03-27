@@ -34,7 +34,7 @@ git clone git@github.com:saintpickle/picklecms.git
 cd picklecms
 cp .env.example .env
 composer install
-sail build
+sail up -d
 sail bun install
 sail artisan key:generate
 sail artisan migrate
